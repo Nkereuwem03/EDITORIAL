@@ -3,9 +3,9 @@ import { faker } from "@faker-js/faker";
 import { MailSlurp } from "mailslurp-client";
 
 const FRONTEND_URL =
-  process.env.BASE_URL || "https://editorial.joinebo.app";
+  process.env.BASE_URL || "";
 const API_BASE_URL =
-  process.env.API_BASE_URL || "https://backend.joinebo.app/main";
+  process.env.API_BASE_URL || "";
 const API_LOGIN_ENDPOINT = `${API_BASE_URL}/auth/login/`;
 
 const mailslurp = new MailSlurp({
