@@ -1,0 +1,10 @@
+{
+  "validFiles": {
+    "pdf": "testData/styleGuide/nigeria.pdf",
+    "docx": "testData/styleGuide/ANS.docx"
+  },
+  "invalidFiles": {
+    "jpg": "testData/styleGuide/image.jpg",
+    "txt": "testData/styleGuide/document.txt"
+  }
+}

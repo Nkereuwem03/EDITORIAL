@@ -1,0 +1,7 @@
+{
+  "validUser": {
+    "mediaOutletName": "Media",
+    "password": "ValidPassword1!",
+    "confirmPassword": "ValidPassword1!"
+  }
+}

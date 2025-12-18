@@ -1,0 +1,10 @@
+Created inbox with email: 035e71a6-4382-4cce-8e15-563ae95969bc@mailslurp.xyz
+Verification code sent to 035e71a6-4382-4cce-8e15-563ae95969bc@mailslurp.xyz
+Waiting for email in inbox: b75fbeb8-396b-40d5-b51b-47e15e3cf859
+Email received:
+   - ID: 28092622-30e8-43f0-bdfd-0324eab6a32d
+   - Subject: "Your Verification Code for Sign Up"
+   - From: support@joinebo.com
+   - Received: Thu Dec 18 2025 06:22:35 GMT+0100 (West Africa Standard Time)
+Verification code extracted: 667046
+Verification code extracted: 667046

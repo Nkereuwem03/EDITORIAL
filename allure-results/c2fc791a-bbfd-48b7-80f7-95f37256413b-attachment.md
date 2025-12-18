@@ -1,0 +1,57 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link "ebo editorial" [ref=e6] [cursor=pointer]:
+          - /url: /dashboard
+          - img "ebo editorial" [ref=e7]
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - paragraph [ref=e10]: DASHBOARD
+            - generic [ref=e11]:
+              - link "Dashboard" [ref=e12] [cursor=pointer]:
+                - /url: /dashboard
+                - img [ref=e13]
+                - text: Dashboard
+              - link "Style Guide" [ref=e15] [cursor=pointer]:
+                - /url: /style-guide
+                - img [ref=e16]
+                - text: Style Guide
+              - link "Upload Audio" [ref=e18] [cursor=pointer]:
+                - /url: /upload-audio
+                - img [ref=e19]
+                - text: Upload Audio
+              - link "My Articles" [ref=e21] [cursor=pointer]:
+                - /url: /my-articles
+                - img [ref=e22]
+                - text: My Articles
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: GENERAL
+            - link "Settings" [ref=e28] [cursor=pointer]:
+              - /url: /account
+              - img [ref=e29]
+              - text: Settings
+          - button "Logout" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - text: Logout
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - paragraph [ref=e38]: T
+      - main [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - heading "Style Guide" [level=1] [ref=e42]
+            - paragraph [ref=e43]: Your outlet's writing style and reporter writing pattern.
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - heading "Outlet Style Guide" [level=2] [ref=e46]
+              - paragraph [ref=e47]: Your outlet's writing style
+            - generic [ref=e48]:
+              - generic [ref=e50]: "# Ex-envoy slams Trump's military threat against Nigeria *4th November 2025* *By Christabel Ndoeche* Former Deputy Ambassador of Nigeria to the United States, Ambassador Hassan Mohammed, has faulted recent remarks by US President Donald Trump, allegedly threatening Nigeria with strikes or invasion over issues relating to religious freedom. Speaking in an interview with ARISE News on Monday night, Mohammed said while the United States has the legal authority to pressure countries failing to uphold freedom of religion under its 1998 International Freedom of Religious Act, the law does not grant the US the right to declare war or carry out military action over such matters. \"In 1998, a law came up in the United States — that's the International Freedom of Religions Act. That act provides the United States the right to pressure any country that is not doing the right thing in terms of religion, religious worship, and religious practices.\" The former envoy recalled that Nigeria had previously been listed under the Act in 2001 and 2002, but the issue was resolved amicably through dialogue. \"What is worrying in the pronouncements so far is the fact that President Trump threatened to punish Nigeria in terms of war or strikes, or invasion. This has never happened before,\" Mohammed said. Mohammed noted that the IFRA intended to promote fairness and accountability in how nations handle religious matters, not to justify threats of war. \"The provision is that they want you to come clean, to make sure that you are fair to everybody. And once you fail, they will put some pressure on you, on your country to perform.\" ## Related News - Ex-US vice president Dick Cheney dies at 84 - China backs Nigeria, warns against foreign interference - Insecurity: Put Nigeria's interests above politics, APC urges Obi He stressed that the law was meant to encourage fairness and improvement, not to justify aggression. \"There is nothing in the Act that gives the United States the right to declare war on a nation because of religious violations. What Trump has done now, or threatened to do, shows that there is more than meets the eye. We may discover the motivations in due course.\" His remarks come amid heightened global attention on the alleged persecution of Christians in Nigeria and a recent statement by Trump threatening possible military action."
+              - button "Update Style Guide" [ref=e52] [cursor=pointer]
+```

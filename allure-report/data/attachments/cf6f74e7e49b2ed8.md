@@ -1,0 +1,68 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - region "Notifications alt+T"
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - link "ebo editorial" [ref=e6] [cursor=pointer]:
+          - /url: /dashboard
+          - img "ebo editorial" [ref=e7]
+        - navigation [ref=e8]:
+          - generic [ref=e9]:
+            - paragraph [ref=e10]: DASHBOARD
+            - generic [ref=e11]:
+              - link "Dashboard" [ref=e12] [cursor=pointer]:
+                - /url: /dashboard
+                - img [ref=e13]
+                - text: Dashboard
+              - link "Style Guide" [ref=e15] [cursor=pointer]:
+                - /url: /style-guide
+                - img [ref=e16]
+                - text: Style Guide
+              - link "Upload Audio" [ref=e18] [cursor=pointer]:
+                - /url: /upload-audio
+                - img [ref=e19]
+                - text: Upload Audio
+              - link "My Articles" [ref=e21] [cursor=pointer]:
+                - /url: /my-articles
+                - img [ref=e22]
+                - text: My Articles
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: GENERAL
+            - link "Settings" [ref=e28] [cursor=pointer]:
+              - /url: /account
+              - img [ref=e29]
+              - text: Settings
+          - button "Logout" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+            - text: Logout
+    - generic [ref=e35]:
+      - banner [ref=e36]:
+        - paragraph [ref=e38]: T
+      - main [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - heading "Settings" [level=1] [ref=e42]
+            - paragraph [ref=e43]: Manage your account settings and preferences
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - button "Profile" [ref=e46] [cursor=pointer]
+              - button "Security" [active] [ref=e47] [cursor=pointer]
+              - button "Notifications" [ref=e48] [cursor=pointer]
+            - generic [ref=e50]:
+              - heading "Security" [level=2] [ref=e51]
+              - paragraph [ref=e52]: Manage your media outlet account security
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - generic [ref=e56]:
+                    - paragraph [ref=e57]: Password
+                    - paragraph [ref=e58]: Update your password
+                  - button [ref=e59] [cursor=pointer]:
+                    - img [ref=e60]
+                - generic [ref=e63]:
+                  - paragraph [ref=e64]: 2FA
+                  - paragraph [ref=e65]: Enable or disable two-factor authentication
+```

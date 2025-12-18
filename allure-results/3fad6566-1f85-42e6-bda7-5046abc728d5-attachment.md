@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e2]:
+        - button "Close toast" [ref=e3] [cursor=pointer]:
+          - img [ref=e4]
+        - img [ref=e8]
+        - generic [ref=e11]: You do not meet the requirements to access this page. Please create an account
+  - banner [ref=e12]:
+    - navigation [ref=e13]:
+      - link "ebo editorial" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ebo editorial" [ref=e15]
+      - generic [ref=e16]:
+        - link "Log in" [ref=e17] [cursor=pointer]:
+          - /url: /sign-in
+        - link "Sign up" [ref=e18] [cursor=pointer]:
+          - /url: /sign-up
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - heading "Create your account" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Enter your details to create an account
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: Media Outlet Name
+            - textbox "Media Outlet Name" [ref=e29]:
+              - /placeholder: Enter your outlet name
+          - generic [ref=e30]:
+            - generic [ref=e31]: Email
+            - textbox "Email" [ref=e33]:
+              - /placeholder: Enter your email
+          - generic [ref=e34]:
+            - generic [ref=e35]: Password
+            - generic [ref=e36]:
+              - textbox "Password" [ref=e37]:
+                - /placeholder: Enter your password
+              - button [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+          - generic [ref=e43]:
+            - generic [ref=e44]: Confirm Password
+            - generic [ref=e45]:
+              - textbox "Confirm Password" [ref=e46]:
+                - /placeholder: Enter your password
+              - button [ref=e48] [cursor=pointer]:
+                - img [ref=e49]
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - img [ref=e55]
+              - paragraph [ref=e57]: One lowercase character
+            - generic [ref=e58]:
+              - img [ref=e60]
+              - paragraph [ref=e62]: One uppercase character
+            - generic [ref=e63]:
+              - img [ref=e65]
+              - paragraph [ref=e67]: One number
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - paragraph [ref=e72]: One special character
+            - generic [ref=e73]:
+              - img [ref=e75]
+              - paragraph [ref=e77]: 8 characters minimum
+        - button "Sign up" [ref=e78] [cursor=pointer]
+        - paragraph [ref=e79]:
+          - text: Already have an account?
+          - link "Log In" [ref=e80] [cursor=pointer]:
+            - /url: /sign-in
+  - alert [ref=e81]: Sign Up | Ebo Editorial
+```

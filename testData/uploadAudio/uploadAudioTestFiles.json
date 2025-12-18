@@ -1,0 +1,10 @@
+{
+  "validFiles": {
+    "mp3": "testData/uploadAudio/4.32_MB_MP3.mp3",
+    "mp4": "testData/uploadAudio/4.32_MB_MP4.mp4"
+  },
+  "invalidFiles": {
+    "mp4": "testData/uploadAudio/50mb.mp4",
+    "unSupportedFormat": "testData/uploadAudio/unsupported.ogg"
+  }
+}

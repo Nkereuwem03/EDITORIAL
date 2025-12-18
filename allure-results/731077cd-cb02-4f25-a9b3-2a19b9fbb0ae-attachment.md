@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=e2]:
+        - button "Close toast" [ref=e3] [cursor=pointer]:
+          - img [ref=e4]
+        - img [ref=e8]
+        - generic [ref=e11]: You do not meet the requirements to access this page. Please create an account
+  - banner [ref=e12]:
+    - navigation [ref=e13]:
+      - link "ebo editorial" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ebo editorial" [ref=e15]
+      - generic [ref=e16]:
+        - link "Log in" [ref=e17] [cursor=pointer]:
+          - /url: /sign-in
+        - link "Sign up" [ref=e18] [cursor=pointer]:
+          - /url: /sign-up
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - heading "Verify your email" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Enter the code sent to your email
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: Enter OTP
+          - generic:
+            - generic:
+              - generic: "1"
+              - generic: "2"
+              - generic: "3"
+              - generic: "4"
+              - generic: "5"
+              - generic: "6"
+            - textbox "Enter OTP" [active] [ref=e27]: "123456"
+        - paragraph [ref=e28]:
+          - text: Resend verification code in
+          - generic [ref=e29]: 05:00
+        - button "Verify OTP" [ref=e30] [cursor=pointer]
+  - alert [ref=e31]
+```

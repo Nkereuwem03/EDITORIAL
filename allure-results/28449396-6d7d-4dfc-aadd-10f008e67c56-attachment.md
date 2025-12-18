@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "ebo editorial" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "ebo editorial" [ref=e5]
+      - generic [ref=e6]:
+        - link "Log in" [ref=e7] [cursor=pointer]:
+          - /url: /sign-in
+        - link "Sign up" [ref=e8] [cursor=pointer]:
+          - /url: /sign-up
+  - main [ref=e9]:
+    - generic [ref=e11]:
+      - heading "Log in to your account" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Enter your details to create an account
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Email
+            - textbox "Email" [ref=e19]:
+              - /placeholder: name@company.com
+          - generic [ref=e20]:
+            - generic [ref=e21]: Password
+            - generic [ref=e22]:
+              - textbox "Password" [ref=e23]:
+                - /placeholder: ＊＊＊＊＊＊＊
+              - button [ref=e25] [cursor=pointer]:
+                - img [ref=e26]
+          - generic [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]:
+                - checkbox "Remember for 30 days" [ref=e32]
+                - checkbox
+              - text: Remember for 30 days
+            - link "Forgot password" [ref=e33] [cursor=pointer]:
+              - /url: /forgot-password
+        - button "Log in" [ref=e34] [cursor=pointer]
+        - paragraph [ref=e35]:
+          - text: Don’t have an account yet?
+          - link "Sign up" [ref=e36] [cursor=pointer]:
+            - /url: /sign-up
+  - alert [ref=e37]
+```

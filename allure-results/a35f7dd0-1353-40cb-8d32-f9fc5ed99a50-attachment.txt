@@ -1,0 +1,4 @@
+Sign up error: apiRequestContext.post: Test timeout of 30000ms exceeded.
+    at verifyEmailViaAPI (C:\Users\user\Desktop\EBO_EDITORIAL\utils\authenticateViaAPI.js:78:39)
+    at signUpViaAPI (C:\Users\user\Desktop\EBO_EDITORIAL\utils\authenticateViaAPI.js:127:11)
+    at C:\Users\user\Desktop\EBO_EDITORIAL\tests\uploadAudio.spec.js:24:5
